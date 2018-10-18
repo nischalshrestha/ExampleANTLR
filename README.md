@@ -4,7 +4,7 @@ I wanted to have a bare minimum ANTLR project handy written in Java and specific
 
 # Instructions
 
-Most of the setup work is described discussed [here](https://tomassetti.me/antlr-mega-tutorial/) and some code is provided [here](https://github.com/unosviluppatore/antlr-mega-tutorial). The pom file will take care of the antlr4 dependencies as well as the antrl4 maven plugin which is crucial for properly generating the lexer/parser/visitor/listener classes treated as source code so it can be used by your main code. I also installed the 
+Most of the setup work is described discussed [here](https://tomassetti.me/antlr-mega-tutorial/) and some code is provided [here](https://github.com/unosviluppatore/antlr-mega-tutorial). The pom file will take care of the antlr4 dependencies as well as the antrl4 maven plugin which is crucial for properly generating the lexer/parser/visitor/listener classes treated as source code so it can be used by your main code. 
 
 The project structure is almost identical to the markup-example project found in the link but this is how it actually looks like once the project is built using the pom file:
 
