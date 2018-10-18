@@ -13,3 +13,7 @@ The project structure is almost identical to the markup-example project found in
 With this setup, the maven plugin for antlr4 looks for the `.g4` grammar file residing in a folder under ```src/main/antlr4/...```. Make sure this nested folder structure are regular ones, i.e. not treated as Java source code by Eclipse. Once you have this structure when you generate the antlr4 files based on the `.g4` file, the generated files will reside in a ```target/generated-sources/antlr4``` folder by default. If this turns out to be non-source, right click folder, select ```Build Path > Use as Source Folder```. This is important because you want to be able to import the generated Java files with your main code which resides in the ```src/main/java/...``` folder.
 
 In the above picture, I have left out other folders that are generated inside of the other non-source ```target``` folder to focus on the essential files you need.
+
+# Resources
+
+To get a better understanding of the setup I encourage you to check out antlr's maven [plugin](http://www.antlr.org/api/maven-plugin/latest/) and the installation steps for [ANTLR](https://github.com/antlr/antlr4/blob/master/doc/getting-started.md).
