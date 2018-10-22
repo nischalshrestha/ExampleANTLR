@@ -2,12 +2,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>ExampleANTLR</groupId>
-  <artifactId>ExampleANTLR</artifactId>
+  <groupId>tdd.translator</groupId>
+  <artifactId>TDDTranslator</artifactId>
   <version>1.0</version>
   <packaging>jar</packaging>
 
-  <name>ExampleANTLR</name>
+  <name>TDDTranslator</name>
   <url>http://maven.apache.org</url>
   
   <properties>
@@ -26,6 +26,11 @@
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
+    </dependency>
+    <dependency> <!-- Spark dependency -->
+      <groupId>org.apache.spark</groupId>
+      <artifactId>spark-sql_2.11</artifactId>
+      <version>2.2.0</version>
     </dependency>
   </dependencies>
 
