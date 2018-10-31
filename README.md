@@ -1,6 +1,6 @@
 # Example ANTLR
 
-I wanted to have a bare minimum ANTLR project handy written in Java and specifically for Eclipse. So, I created this repo for that purpose and it may be useful for anyone else. 
+I wanted to have a bare minimum ANTLR project handy written in Java and specifically for Eclipse Oxygen. So, I created this repo for that purpose and it may be useful for anyone else. 
 
 # Instructions
 
